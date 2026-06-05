@@ -10,7 +10,7 @@ const SKILLS = [
 ];
 
 const DELAYS = ['d1','d2','d3','d1','d2','d3'];
-console.log("revertt")
+
 export default function Skills() {
   return (
     <section id="skills" className="section">
