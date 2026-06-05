@@ -7,33 +7,6 @@ npm install
 npm start
 ```
 
-## Add Your Assets
-
-Copy your files into `src/assets/`:
-
-```
-src/
-  assets/
-    vigneshkumar.jpg        ← your profile photo
-    MR.Vigneshkumar-resume.pdf
-    arts/
-      gopuram.jpg
-      couple.jpg
-      elephant.jpg
-      mom.jpg
-      arttree.jpg
-```
-
-Then in `src/components/Hero.jsx`, uncomment:
-```js
-import profile from '../assets/vigneshkumar.jpg';
-import Resume  from '../assets/MR.Vigneshkumar-resume.pdf';
-```
-And replace the placeholder `<div>` with `<img src={profile} alt="Vignesh Kumar MR" />`.
-Update the resume `<a href={Resume}>`.
-
-In `src/components/Art.jsx`, uncomment the imports and replace `null` with each image variable.
-
 ## Build for Production
 
 ```bash
