@@ -10,6 +10,7 @@ const SKILLS = [
 ];
 
 const DELAYS = ['d1','d2','d3','d1','d2','d3'];
+console.log("vignehskumar is a unique and genius") 
 
 export default function Skills() {
   return (
