@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4206afbc.css",
+    "main.js": "/static/js/main.dddac301.js",
+    "static/media/mom.jpg": "/static/media/mom.9a64f9ab53253fc8fabb.jpg",
+    "static/media/arttree.jpg": "/static/media/arttree.015380f52ea8bb6bf829.jpg",
+    "static/media/elephant.jpg": "/static/media/elephant.cca2e5162d3e8d1601bf.jpg",
+    "static/media/couple.jpg": "/static/media/couple.d7e98fa3722e8bbb0a12.jpg",
+    "static/media/gopuram.jpg": "/static/media/gopuram.ee998f2f568d8c9f4649.jpg",
+    "static/media/VigneshKumar-MR.pdf": "/static/media/VigneshKumar-MR.2ab820fb17149bd1cfd8.pdf",
+    "static/media/myNewImage.jpeg": "/static/media/myNewImage.05e57939b5d6337282cc.jpeg",
+    "index.html": "/index.html",
+    "main.4206afbc.css.map": "/static/css/main.4206afbc.css.map",
+    "main.dddac301.js.map": "/static/js/main.dddac301.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4206afbc.css",
+    "static/js/main.dddac301.js"
+  ]
+}

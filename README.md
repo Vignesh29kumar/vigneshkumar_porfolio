@@ -1,0 +1,63 @@
+# Vignesh Kumar MR — Portfolio
+
+## Quick Start
+
+```bash
+npm install
+npm start
+```
+
+## Add Your Assets
+
+Copy your files into `src/assets/`:
+
+```
+src/
+  assets/
+    vigneshkumar.jpg        ← your profile photo
+    MR.Vigneshkumar-resume.pdf
+    arts/
+      gopuram.jpg
+      couple.jpg
+      elephant.jpg
+      mom.jpg
+      arttree.jpg
+```
+
+Then in `src/components/Hero.jsx`, uncomment:
+```js
+import profile from '../assets/vigneshkumar.jpg';
+import Resume  from '../assets/MR.Vigneshkumar-resume.pdf';
+```
+And replace the placeholder `<div>` with `<img src={profile} alt="Vignesh Kumar MR" />`.
+Update the resume `<a href={Resume}>`.
+
+In `src/components/Art.jsx`, uncomment the imports and replace `null` with each image variable.
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+## Project Structure
+
+```
+src/
+  App.jsx                  ← root, wires everything
+  index.js                 ← ReactDOM entry
+  hooks/
+    useCursor.js           ← custom gold cursor
+    useReveal.js           ← scroll-reveal observer
+  components/
+    Navbar.jsx             ← fixed nav with active-section tracking
+    Hero.jsx               ← landing hero with profile frame
+    Skills.jsx             ← 3-column skill grid
+    Education.jsx          ← tabbed education section
+    Projects.jsx           ← animated project list
+    Experience.jsx         ← experience block
+    Art.jsx                ← portrait art gallery
+    Contact.jsx            ← contact links
+  styles/
+    global.css             ← all styles, animations, responsive
+```
